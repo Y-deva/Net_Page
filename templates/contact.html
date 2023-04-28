@@ -1,0 +1,38 @@
+<meta http-equiv="Refresh" content="1">
+<head>
+    <script>
+        const xhr = new XMLHttpRequest();
+        // POST-запрос к ресурсу /user
+        xhr.open("POST", "/game");
+        xhr.send();
+    </script>
+</head>
+<head>
+    <script>
+        const xhr = new XMLHttpRequest();
+        // POST-запрос к ресурсу /user
+        xhr.open("POST", "/game");
+        xhr.send();
+    </script>
+</head>
+<html>
+      <head>
+          <script>
+              function hello(key) {
+                  const xhr = new XMLHttpRequest();
+                  // POST-запрос к ресурсу /user
+                  xhr.open("POST", "/user");
+                  xhr.send(key);
+              }
+          </script>
+
+      </head>
+<p>
+        <a class="btn btn-success" href="/login">Главная</a>
+    </p>
+      <body onkeydown="hello(event.key)">
+          <textarea rows="20" cols="40" disabled>
+              {{text}}
+          </textarea>
+      </body>
+</html>
